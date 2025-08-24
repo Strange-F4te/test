@@ -13,6 +13,9 @@ $(call inherit-product, device/infinix/X6882/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Config: Allow opting out of EPPE
+TARGET_DISABLE_EPPE  := true
+
 BOARD_VENDOR := INFINIX
 PRODUCT_NAME := lineage_X6882
 PRODUCT_DEVICE := X6882
