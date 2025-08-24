@@ -8,23 +8,23 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from device makefile.
-$(call inherit-product, device/tecno/LH7n/device.mk)
+$(call inherit-product, device/infinix/X6882/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-BOARD_VENDOR := TECNO
-PRODUCT_NAME := lineage_LH7n
-PRODUCT_DEVICE := LH7n
-PRODUCT_MANUFACTURER := TECNO
-PRODUCT_BRAND := TECNO
-PRODUCT_MODEL := TECNO LH7n
+BOARD_VENDOR := INFINIX
+PRODUCT_NAME := lineage_X6882
+PRODUCT_DEVICE := X6882
+PRODUCT_MANUFACTURER := INFINIX
+PRODUCT_BRAND := INFINIX
+PRODUCT_MODEL := INFINIX X6882
 
 PRODUCT_GMS_CLIENTID_BASE := android-transsion
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    DeviceName=LH7n \
-    BuildFingerprint=TECNO/LH7n-GL/TECNO-LH7n:14/UP1A.231005.007/250416V781:user/release-keys
+    DeviceName=X6882 \
+    BuildFingerprint=INFINIX/X6882-GL/INFINIX-X6882:14/UP1A.231005.007/250416V781:user/release-keys
 
 # AxionAOSP Flags
 AXION_CAMERA_REAR_INFO := 50

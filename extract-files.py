@@ -15,7 +15,7 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'device/tecno/LH7n',
+    'device/infinix/X6882',
     'hardware/mediatek',
     'hardware/mediatek/libmtkperf_client',
     'hardware/transsion',
@@ -104,8 +104,8 @@ blob_fixups: blob_fixups_user_type = {
 }  # fmt: skip
 
 module = ExtractUtilsModule(
-    'LH7n',
-    'tecno',
+    'X6882',
+    'infinix',
     blob_fixups=blob_fixups,
     namespace_imports=namespace_imports,
 )

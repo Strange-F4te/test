@@ -1,4 +1,4 @@
 runtime_resource_overlay {
-    name: "UpdaterOverlayRozen",
+    name: "UpdaterOverlayX6882",
     product_specific: true,
 }

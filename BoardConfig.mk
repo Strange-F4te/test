@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/tecno/LH7n
+DEVICE_PATH := device/infinix/X6882
 KERNEL_PATH := $(DEVICE_PATH)-kernel
 CONFIGS_PATH := $(DEVICE_PATH)/configs
 
@@ -150,7 +150,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 TARGET_COPY_OUT_VENDOR_DLKM := vendor_dlkm
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := LH7n,TECNO-LH7n,rozen
+TARGET_OTA_ASSERT_DEVICE := X6882,infinix-X6882
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6789
@@ -234,4 +234,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 TARGET_KERNEL_SOURCE := $(KERNEL_PATH)/kernel-headers
 
 # Inherit the proprietary files
-include vendor/tecno/LH7n/BoardConfigVendor.mk
+include vendor/infinix/X6882/BoardConfigVendor.mk
