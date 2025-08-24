@@ -24,7 +24,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-transsion
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceName=X6882 \
-    BuildFingerprint=INFINIX/X6882-GL/INFINIX-X6882:14/UP1A.231005.007/250416V781:user/release-keys
+    BuildFingerprint=Infinix/X6882-OP/Infinix-X6882:14/UP1A.231005.007/250616V1571:user/release-keys
 
 # AxionAOSP Flags
 AXION_CAMERA_REAR_INFO := 50
